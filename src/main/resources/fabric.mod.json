@@ -5,7 +5,6 @@
   "name": "NinjaConfig",
   "description": "A lightweight, Minecraft version-agnostic JSON configuration library for Fabric mods",
   "authors": [],
-  "contact": {},
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
