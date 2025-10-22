@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ninjaconfig",
+  "version": "${version}",
+  "name": "NinjaConfig",
+  "description": "A lightweight, Minecraft version-agnostic JSON configuration library for Fabric mods",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ninjadev.ninjaconfig.NinjaConfig"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}"
+  }
+}
