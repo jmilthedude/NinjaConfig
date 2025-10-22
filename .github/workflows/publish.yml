@@ -33,7 +33,7 @@ jobs:
       - name: Deploy to jmilthedude/maven repo
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: jmilthedude/maven
           publish_dir: build/repo
           publish_branch: main
