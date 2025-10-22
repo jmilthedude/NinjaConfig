@@ -14,5 +14,7 @@ jobs:
           java-version: 21
           distribution: 'temurin'
           cache: gradle
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
       - name: Build
         run: ./gradlew --no-daemon build
