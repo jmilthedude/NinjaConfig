@@ -24,8 +24,11 @@ jobs:
           java-version: 21
           cache: gradle
 
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
       - name: Build & publish to local dir
-        run: ./gradlew --no-daemon clean publish
+        run: ./gradlew --no-daemon publish
 
       - name: Deploy to jmilthedude/maven repo
         uses: peaceiris/actions-gh-pages@v4
